@@ -1,0 +1,149 @@
+body{
+    color: rgb(183, 194, 204);
+}
+.navbar-brand{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+}
+.arc{
+    color: yellow;
+    background-color: grey;
+    padding: 5px;
+    border-radius: 15px 0px 15px 0px;
+}
+.builder{
+    color: gray;
+}
+.carousel-caption{
+    margin-bottom: 12rem;
+    z-index: 2;
+}
+.carousel-caption h5{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.carousel-caption p{
+    width: 60%;
+    margin: auto;
+    font-size: 18px;
+    line-height: 1.9;
+}
+.carousel-inner::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgb(0, 0, 0, 0.7);
+    z-index: 1;
+}
+.navbar-nav a{
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 500;
+    cursor: pointer;
+}
+.navbar-light .navbar-brand{
+    color: #000;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+.navbar-light .navbar-brand:focus,
+.navbar-light .navbar-brand:hover{
+    color: #000;
+}
+.navbar-light .navbar-nav .navbar-link{
+    color: #000;
+}
+.w-100{
+    height: 100vh;
+}
+.container-section a{
+    background-color: #353555;
+    color:aliceblue;
+}
+
+/* Style for the image container */
+.image-container {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  /* Style for the image */
+  .image-container img {
+    width: 100%;
+    height: 100%;
+    transition: transform 0.5s;
+  }
+  
+  /* Style for the image overlay */
+  .image-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7); /* Semi-transparent black background */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.5s;
+  }
+  
+  /* Hover effect */
+  .image-container:hover .image-overlay {
+    opacity: 1;
+  }
+  
+  /* Style for text in the overlay */
+  .image-overlay p {
+    color: white;
+  }
+  
+  /* Style for the "Learn more" button */
+  .image-overlay .btn {
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  /* Hover effect for the button */
+  .image-overlay .btn:hover {
+    background-color: white;
+    color: black;
+  }
+ .container .col-md-3 img{
+    transition: transform 0.3s;
+    cursor: pointer;
+ }
+ .container .col-md-3 img:hover{
+    transform: scale(2.1);
+ }
+ .container .col-md-3 img:active{
+    transform: scale(0.9);
+ }
+/* slider card */
+footer ul li{
+   justify-content: left;
+   text-decoration: none;
+   list-style: none;
+}
+/* slider card end */
+@media (max-width:600px) {
+    .carousel-caption h5{
+        font-size: 1.5rem;
+        
+    }
+    .carousel-caption p{
+        font-size: 1rem;
+      
+    }
+}

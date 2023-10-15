@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link rel="stylesheet" href="style.css" />
+    <!-- Bootstrap CSS -->
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>Bootstrap 5 project</title>
+  </head>
+  <body>
+    <!--navbar-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container">
+        <a class="navbar-brand" href="#"
+          ><span class="arc">ARC</span><span class="builder">Builders</span></a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#service">Service</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#portfolio">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#team">Team</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!--navbar end-->
+    <!--crousel start-->
+    <div
+      id="carouselExampleCaptions"
+      class="carousel slide col-md-12"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="stocks/pexels-vincent-rivaud-2876787.jpg"
+            style="height: 100vh; width: 100%"
+          />
+          <div class="carousel-caption">
+            <h5>Its your world</h5>
+            <p>
+              Home is where love resides, memories are created, and laughter
+              never ends, Home is the starting place of love, hope, and dreams
+            </p>
+            <a href="" class="btn btn-warning mt-3">Lear more</a>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="stocks/pexels-thgusstavo-santana-2102587.jpg"
+            class="d-block"
+            style="width: 100%; height: 100vh"
+            alt="..."
+          />
+          <div class="carousel-caption">
+            <h5>Trust you dream</h5>
+            <p>
+              Building a home is about trust, trust in your vision, trust in
+              your builders, and trust in your dreams coming to life.
+            </p>
+            <a href="" class="btn btn-warning mt-3">Lear more</a>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="stocks/pexels-designecologist-1005058.jpg"
+            style="width: 100%; height: 100vh"
+            alt=""
+          />
+          <div class="carousel-caption">
+            <h5>sucess your vision</h5>
+            <p>
+              Trust is the compass that guides every decision in building a
+              home, ensuring it's a place of security and comfort.
+            </p>
+            <a href="" class="btn btn-warning mt-3">Lear more</a>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!--crousel end-->
+    <!--section start-->
+    <div class="container-section bg-light p-4">
+      <div class="row p-4">
+        <div class="col-12 col-md-4 col-lg-4 mt-2">
+          <div class="card text-center h-20 w-20 shadow-lg">
+            <h3 class="p-3">Customized 3BHK Home or Flat Interior</h3>
+            <div class="image-container">
+              <img src="stocks/pexels-emre-can-acer-2079246.jpg" alt="" />
+              <div class="image-overlay">
+                <p class="p-3">
+                  Limited Time Offer For Home Interiors Special Discount Offer
+                  <br />
+                  <s>8.86 Lakh</s>&nbsp; <b>7.66Lakh</b>
+                </p>
+                <a href="" class="btn p-2 m-2">Essential package</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Repeat for other cards -->
+        <div class="col-12 col-md-4 col-lg-4 mt-2">
+          <div class="card text-center h-20 w-20 shadow-lg">
+            <h3 class="p-3">Customized 4BHK Home or Flat Interior</h3>
+            <div class="image-container">
+              <img src="stocks/pexels-designecologist-1005058.jpg" alt="" />
+              <div class="image-overlay">
+                <p class="p-3">
+                  Limited Time Offer For Home Interiors Special Discount Offer
+                  <br />
+                  <s>12.56 Lakh</s>&nbsp; <b>11.20Lakh</b>
+                </p>
+                <a href="" class="btn p-2 m-2">Premium package</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Repeat for other cards -->
+        <div class="col-12 col-md-4 col-lg-4 mt-2">
+          <div class="card text-center h-20 w-20 shadow-lg">
+            <h3 class="p-3">Customized 4BHK Home or Flat Interior</h3>
+            <div class="image-container">
+              <img src="stocks/pexels-wendy-wei-2959595.jpg" alt="" />
+              <div class="image-overlay">
+                <p class="p-3">
+                  Limited Time Offer For Home Interiors Special Discount Offer
+                  <br />
+                  <s>20.86 Lakh</s>&nbsp; <b>17.66Lakh</b>
+                </p>
+                <a href="" class="btn p-2 m-2">Laxuary package</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Repeat for other cards -->
+      </div>
+    </div>
+    <!--section end-->
+    <div class="container">
+        <div class="card p-5 shadow-lg text-center mb-3">
+            <h5><b>"Want To Save Money On Your Home Interior Project Without Sacrificing Style? Discover The Top Tips For Cutting Unnecessary Cost"</b></h5>
+        </div>
+    </div>
+    <!--single picture with introduction-->
+    <div class="container mt-5 shadow-lg">
+      <div class="row">
+        <div class="col-md-12 col-lg-6">
+          <img
+            src="stocks/pexels-emre-can-acer-2079246.jpg"
+            style="height: 100%; width: 100%"
+            alt=""
+          />
+        </div>
+        <div class="col-md-12 col-lg-6 p-5">
+          <h3>
+            <b
+              >Home Designers In Kerala | <br />
+              Tamilnadu | Bangalore</b
+            >
+          </h3>
+          <p>
+            We started out as interior designers in Thiruvalla and are now a
+            multidisciplinary team dedicated to serving the communities of South
+            India. It is our belief that design must always be functional,
+            emotional, and elegant. Our diverse, highly motivated team of Home
+            Designers includes architects, designers, project managers, and
+            interior designers. We are dreamers, thinkers, and creators.
+          </p>
+          <a href="" class="btn btn-dark">Learn more</a>
+        </div>
+      </div>
+    </div>
+
+    <!--service part-->
+    <div class="container mt-5">
+        <div class="row text-center p-4">
+            <div class="col-md-3 text-center">
+                    <img src="stocks/meeting.png" style="height: 25%; width: 10%;" alt="">
+                <p><b>Contact Our Designer & Get an Estimate</b></p>
+            </div>
+            <div class="col-md-3">
+                    <img src="stocks/video.png" style="height: 25%; width: 10%;" alt="">
+                <p><b>Production Starts</b></p>
+            </div>
+            <div class="col-md-3">
+                    <img src="stocks/home-repair.png" style="height: 25%; width: 10%;" alt="">
+                    <p><b>Installation begins
+                    </b></p>
+            </div>
+            <div class="col-md-3">
+                    <img src="stocks/key.png" style="height: 25%; width: 10%;" alt="">
+                <p><b>Move in!</b></p>
+              
+            </div>
+
+        </div>
+    </div>
+
+    
+    <!--moving cards-->
+   <div class="">
+    <div id="carouselExampleControls" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-scroll">
+          <div class="carousel-item active">
+            <div class="card-wrapper container-sm d-flex  justify-content-around">
+            <div class="card  " style="width: 18rem;">
+        <img src="stocks/pexels-designecologist-1005058.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">vivid</h5>
+          
+        </div>
+      </div><div class="card" style="width: 18rem;">
+        <img src="stocks/pexels-emre-can-acer-2079246.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">spring</h5>
+          
+        </div>
+              </div>
+              <div class="card" style="width: 18rem;">
+        <img src="stocks/pexels-wendy-wei-2959595.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">winter</h5>
+          
+        </div>
+      </div>
+      </div>
+          </div>
+          <div class="carousel-item">
+            <div class="card-wrapper container-sm d-flex   justify-content-around">
+            <div class="card  " style="width: 18rem;">
+        <img src="stocks/pexels-designecologist-1005058.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Dew</h5>
+          
+        </div>
+      </div><div class="card" style="width: 18rem;">
+        <img src="stocks/pexels-emre-can-acer-2079246.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">sky </h5>
+          
+        </div>
+              </div>
+              <div class="card" style="width: 18rem;">
+        <img src="stocks/pexels-wendy-wei-2959595.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">astethic</h5>
+          
+        </div>
+      </div>
+          </div>
+          </div>
+          <div class="carousel-item">
+            <div class="card-wrapper container-sm d-flex  justify-content-around">
+            <div class="card " style="width: 18rem;">
+        <img src="stocks/pexels-designecologist-1005058.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">warm</h5>
+          
+        </div>
+      </div>
+              <div class="card" style="width: 18rem;">
+        <img src="stocks/pexels-emre-can-acer-2079246 (1).jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">vintage</h5>
+          
+        </div>
+              </div>
+              <div class="card" style="width: 18rem;">
+        <img src="stocks/pexels-wendy-wei-2959595.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">cool</h5>
+          
+        </div>
+      </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon mb-2" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+    <div class="p-5 mt-5"></div>
+    <div class="p-5 mt-5"></div>
+    <div class="p-5"></div>
+        <!--moving cards end-->
+
+
+
+        <footer class="mt-4 border p-4 text-light bg-dark">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3">
+                        <a class="navbar-brand" href="#"
+                        ><span class="arc">ARC</span><span class="builder">Builders</span></a
+                      >
+                      <p>Interior designers in Ponnani are innovators of new trends in Modular kitchens</p>
+                      
+
+                    </div>
+                    <div class="col-md-3 text-start">
+                        <h6 class="mx-4">QUICK LINKS</h6>
+                        <ul>
+                            <li>Home</li>
+                            <li>project</li>
+                            <li>our product</li>
+                            <li>offer</li>
+                            <li>About us</li>
+                            <li>Contact us</li>
+                            <li>Privacy policy</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3">
+                        <h6 class="mx-4">OUR PRODUCTS</h6>
+                        <ul>
+                            <li>modular kitchen</li>
+                            <li>Living room interior</li>
+                            <li>Dining interior</li>
+                            <li>Bedroominterior</li>
+                            <li>Decorative</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3">
+                        <h6 class="mx-4">ADDRESS</h6>
+                        <ul>
+                            <li>ARC builders <br> kerala , ponnani</li>
+                            <li>Email <br>ARC@gmail.com</li>
+                            <li>phone number <br> (+91) 82814 74 555 <br>(+91) 90373 06881</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </footer>
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
